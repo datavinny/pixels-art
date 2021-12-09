@@ -24,13 +24,24 @@ for(let index = 0; index < 25; index += 1) {
 }
 
 black.classList.add('selected');
+let cor = '';
 function selecionar(event) {
     const selecionado = document.querySelector('.selected');
     selecionado.classList.remove('selected');
     event.target.classList.add('selected');
+    return cor = event.target.id;
 }
 
 black.addEventListener('click', selecionar);
 red.addEventListener('click', selecionar);
 green.addEventListener('click', selecionar);
 blue.addEventListener('click', selecionar);
+
+function colorir(event) {
+    event.target.style.backgroundColor = cor;
+}
+
+const pixel = document.querySelectorAll('.pixel');
+for(let index = 0; index < pixel.length; index += 1) {
+    pixel[index].addEventListener('click', colorir);
+}
