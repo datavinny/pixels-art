@@ -45,3 +45,12 @@ const pixel = document.querySelectorAll('.pixel');
 for(let index = 0; index < pixel.length; index += 1) {
     pixel[index].addEventListener('click', colorir);
 }
+
+const botaoLimpar = document.getElementById('clear-board');
+
+botaoLimpar.addEventListener('click', function (event) {
+    for(let index = 0; index < pixel.length; index += 1) {
+        pixel[index].style.backgroundColor = 'white';
+    }
+}
+)
