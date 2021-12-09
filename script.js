@@ -28,7 +28,6 @@ function selecionar(event) {
     const selecionado = document.querySelector('.selected');
     selecionado.classList.remove('selected');
     event.target.classList.add('selected');
-    input.value = ''; 
 }
 
 black.addEventListener('click', selecionar);
