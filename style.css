@@ -1,0 +1,13 @@
+#color-palette {
+    height: 52px;
+    width: 216px;
+}
+
+.color {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+
