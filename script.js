@@ -24,7 +24,7 @@ for(let index = 0; index < 25; index += 1) {
 }
 
 black.classList.add('selected');
-let cor = '';
+let cor = 'black';
 function selecionar(event) {
     const selecionado = document.querySelector('.selected');
     selecionado.classList.remove('selected');
