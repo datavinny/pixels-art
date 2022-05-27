@@ -1,5 +1,4 @@
-# Boas vindas ao repositório do projeto X!
-
+# Boas vindas ao repositório do projeto Arte com Pixels!
 # Contexto
 Este projeto foi feito enquanto estudava na @betrybe.
 
